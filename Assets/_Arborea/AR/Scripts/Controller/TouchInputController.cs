@@ -1,54 +1,61 @@
 using UnityEngine;
 
-[RequireComponent(typeof(ObjectView))]
 public class TouchInputController : MonoBehaviour
 {
-    public float rotationSpeed = 0.2f;
-    public float scaleSpeed = 0.01f;
+    [SerializeField] private float rotationSpeed = 0.2f;
+    [SerializeField] private float scaleSpeed = 0.01f;
 
-    [SerializeField]private ObjectTransformModel model;
-    private ObjectView view;
+    private ObjectTransformModel _model;
+    private ObjectView _view;
+    private float _initialPinchDistance;
 
-    private float initialPinchDistance;
-    [SerializeField] private Vector3 initialScale;
-
-    void Start()
+    public void Initialize(ObjectTransformModel model, ObjectView view)
     {
-        view = GetComponent<ObjectView>();
-        model = new ObjectTransformModel(transform.localScale);
+        _model = model;
+        _view = view;
     }
 
-    void Update()
+    private void Update()
     {
-        if (Input.touchCount == 1)
-        {
-            Touch touch = Input.GetTouch(0);
+        if (Input.touchCount == 1) HandleRotation();
+        else if (Input.touchCount == 2) HandleScaling();
+    }
 
-            if (touch.phase == TouchPhase.Moved)
-            {
-                float deltaRotation = -touch.deltaPosition.x * rotationSpeed;
-                model.Rotate(deltaRotation);
-                view.UpdateRotation(model.RotationY);
-            }
-        }
-        else if (Input.touchCount == 2)
+    private void HandleRotation()
+    {
+        Touch touch = Input.GetTouch(0);
+        if (touch.phase == TouchPhase.Moved)
         {
-            Touch t0 = Input.GetTouch(0);
-            Touch t1 = Input.GetTouch(1);
-
-            if (t0.phase == TouchPhase.Began || t1.phase == TouchPhase.Began)
-            {
-                initialPinchDistance = Vector2.Distance(t0.position, t1.position);
-                initialScale = model.Scale;
-            }
-            else if (t0.phase == TouchPhase.Moved || t1.phase == TouchPhase.Moved)
-            {
-                float currentDistance = Vector2.Distance(t0.position, t1.position);
-                float scaleFactor = (currentDistance - initialPinchDistance) * scaleSpeed;
-                model.ScaleObject(scaleFactor);
-                view.UpdateScale(model.Scale);
-            }
+            _model.Rotate(-touch.deltaPosition.x * rotationSpeed);
+            _view.UpdateRotation(_model.RotationY);
         }
+    }
+
+    private void HandleScaling()
+    {
+        Touch t1 = Input.GetTouch(0);
+        Touch t2 = Input.GetTouch(1);
+
+        if (t1.phase == TouchPhase.Began || t2.phase == TouchPhase.Began)
+        {
+            _initialPinchDistance = Vector2.Distance(t1.position, t2.position);
+        }
+        else if (t1.phase == TouchPhase.Moved || t2.phase == TouchPhase.Moved)
+        {
+            float currentDistance = Vector2.Distance(t1.position, t2.position);
+            float scaleFactor = (currentDistance - _initialPinchDistance) * scaleSpeed;
+
+            _model.ScaleObject(scaleFactor);
+            _view.UpdateScale(_model.Scale);
+
+            _initialPinchDistance = currentDistance;
+        }
+    }
+
+    public void ResetModel()
+    {
+        _model.Reset();
+        _view.UpdateRotation(_model.RotationY);
+        _view.UpdateScale(_model.Scale);
     }
 }
-
