@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 336804560}
   - component: {fileID: 336804559}
   - component: {fileID: 336804558}
-  - component: {fileID: 336804557}
+  - component: {fileID: 336804561}
   m_Layer: 0
   m_Name: ImageTarget_Hina
   m_TagString: Untagged
@@ -517,25 +517,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &336804557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336804556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 336804559}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Target_Hina
-  mDatasetName: Vuforia/Arborea.xml
-  mCastedBehaviour: {fileID: 336804559}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &336804558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,7 +587,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 336804557}
+  mPreview: {fileID: 336804561}
 --- !u!4 &336804560
 Transform:
   m_ObjectHideFlags: 0
@@ -623,6 +604,25 @@ Transform:
   - {fileID: 1097659964}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336804561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336804556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 336804559}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Target_Hina
+  mDatasetName: Vuforia/Arborea.xml
+  mCastedBehaviour: {fileID: 336804559}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &369596635
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 369596639}
   - component: {fileID: 369596638}
   - component: {fileID: 369596637}
-  - component: {fileID: 369596636}
+  - component: {fileID: 369596640}
   m_Layer: 0
   m_Name: ImageTarget_Rose
   m_TagString: Untagged
@@ -642,25 +642,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &369596636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369596635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 369596638}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Target_Rose
-  mDatasetName: Vuforia/Arborea.xml
-  mCastedBehaviour: {fileID: 369596638}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &369596637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,7 +712,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 369596636}
+  mPreview: {fileID: 369596640}
 --- !u!4 &369596639
 Transform:
   m_ObjectHideFlags: 0
@@ -748,6 +729,25 @@ Transform:
   - {fileID: 1152619802}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &369596640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369596635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 369596638}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Target_Rose
+  mDatasetName: Vuforia/Arborea.xml
+  mCastedBehaviour: {fileID: 369596638}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &793503452
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,7 +792,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allFlowers:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: ed237968829d11444b74618179b8dcf7, type: 2}
+  - {fileID: 11400000, guid: 347266a8fde9665499197ad82cf16190, type: 2}
+  - {fileID: 11400000, guid: 4608c884c7cf37a4dabbaa81d6b55059, type: 2}
   persistDiscoveredFlowers: 1
 --- !u!114 &793503455
 MonoBehaviour:
@@ -835,7 +837,7 @@ GameObject:
   - component: {fileID: 794566764}
   - component: {fileID: 794566767}
   m_Layer: 0
-  m_Name: ImageTarget_Tulip
+  m_Name: ImageTarget_Lily
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

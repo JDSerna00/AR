@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WalpurgisTest.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_Arborea/AR/Scenes/ArboreaAR.unity
+    guid: 9b0db6075ff7bea4d86d20d23adf6c5a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 47481a060ecc7ba44b0941de6897e762,
       type: 2}

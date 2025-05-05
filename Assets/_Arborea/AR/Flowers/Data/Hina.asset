@@ -16,5 +16,6 @@ MonoBehaviour:
   scientificName: HInacchi
   description: 
   photo: {fileID: 0}
-  modelPrefab: {fileID: 0}
-  imageTarget: {fileID: 0}
+  modelPrefab: {fileID: 9125060489265959795, guid: f51e4697b07e5b44bbcad45916e93b5f,
+    type: 3}
+  vuforiaTargetName: Hina

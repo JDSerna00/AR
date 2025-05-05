@@ -16,5 +16,6 @@ MonoBehaviour:
   scientificName: Roselia
   description: 
   photo: {fileID: 0}
-  modelPrefab: {fileID: 0}
-  imageTarget: {fileID: 0}
+  modelPrefab: {fileID: 9125060489265959795, guid: a24ff7a3844a7794da76766a91a4a9cd,
+    type: 3}
+  vuforiaTargetName: Rose
