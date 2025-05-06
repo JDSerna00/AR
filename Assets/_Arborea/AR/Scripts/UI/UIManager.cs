@@ -27,10 +27,14 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
+        VuforiaBehaviour.Instance.enabled = false;
+
         PopulateDropdown();
         flowerDropdown.onValueChanged.AddListener(OnDropdownValueChanged);
         infoPanel.SetActive(false);
         flowerDropdown.gameObject.SetActive(false);
+        dropdownPanel.SetActive(true);
+
     }
 
     void PopulateDropdown()
