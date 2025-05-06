@@ -29,7 +29,7 @@ public class UIManager : MonoBehaviour
     void PopulateDropdown()
     {
         flowerDropdown.ClearOptions();
-        var options = new System.Collections.Generic.List<string>();
+        var options = new List<string>();
         foreach (var flower in allFlowers)
         {
             options.Add(flower.commonName);
@@ -50,7 +50,7 @@ public class UIManager : MonoBehaviour
         sciNameText.text = flower.scientificName;
         descText.text = flower.description;
         flowerImage.sprite = flower.photo;
-
+        
         infoPanel.SetActive(true);
     }
 }
