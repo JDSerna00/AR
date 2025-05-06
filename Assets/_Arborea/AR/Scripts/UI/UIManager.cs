@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 using TMPro;
-using Vuforia; 
+using Vuforia;
 
 public class UIManager : MonoBehaviour
 {
@@ -21,13 +21,22 @@ public class UIManager : MonoBehaviour
     [Header("Panels")]
     public GameObject dropdownPanel;
 
+    [Header("Cameras")]
+    public GameObject arCamera;
+    public GameObject uiCamera;
+
+    [Header("AR Button")]
+    public TextMeshProUGUI arButtonText;
+
     private int currentIndex = 0;
     private bool isARActive = false;
     private bool isDropdownVisible = false;
 
     void Start()
     {
-        VuforiaBehaviour.Instance.enabled = false;
+        // Asegúrate de que AR está desactivada al inicio
+        arCamera.SetActive(false);
+        uiCamera.SetActive(true);
 
         PopulateDropdown();
         flowerDropdown.onValueChanged.AddListener(OnDropdownValueChanged);
@@ -35,6 +44,7 @@ public class UIManager : MonoBehaviour
         flowerDropdown.gameObject.SetActive(false);
         dropdownPanel.SetActive(true);
 
+        arButtonText.text = "Activar AR";
     }
 
     void PopulateDropdown()
@@ -61,7 +71,7 @@ public class UIManager : MonoBehaviour
         sciNameText.text = flower.scientificName;
         descText.text = flower.description;
         flowerImage.sprite = flower.photo;
-        
+
         infoPanel.SetActive(true);
     }
 
@@ -69,10 +79,11 @@ public class UIManager : MonoBehaviour
     {
         isARActive = !isARActive;
 
-        VuforiaBehaviour.Instance.enabled = isARActive;
-
-        // Si la cámara AR está activa, ocultamos el panel del dropdown
+        arCamera.SetActive(isARActive);
+        uiCamera.SetActive(!isARActive);
         dropdownPanel.SetActive(!isARActive);
+
+        arButtonText.text = isARActive ? "Desactivar AR" : "Activar AR";
     }
 
     public void ToggleDropdown()
