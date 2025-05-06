@@ -9,7 +9,7 @@ public class FlowerData : ScriptableObject
     [TextArea(3, 10)] public string description;
 
     [Header("Visual Assets")]
-    public Texture2D photo;
+    public Sprite photo;
     public GameObject modelPrefab;
 
     [Header("AR Settings")]
