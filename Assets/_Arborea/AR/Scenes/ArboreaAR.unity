@@ -152,7 +152,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1251602838}
   - {fileID: 1104177122}
   - {fileID: 1130136137}
   m_Father: {fileID: 60090235}
@@ -495,6 +494,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 489765}
+  - {fileID: 1251602838}
   - {fileID: 1420382993}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -521,7 +521,14 @@ MonoBehaviour:
   nameText: {fileID: 1900819355}
   sciNameText: {fileID: 1059904595}
   descText: {fileID: 925131696}
-  allFlowers: []
+  allFlowers:
+  - {fileID: 11400000, guid: 0fe39c1875ef49042b9a8784f5a50416, type: 2}
+  - {fileID: 11400000, guid: c241e8d6a773d31479b8b709b5a1924b, type: 2}
+  - {fileID: 11400000, guid: a92fea187d04f924f9bc777c672cf7b0, type: 2}
+  - {fileID: 11400000, guid: 1bc99e96a4d68a744bec431e873b9f63, type: 2}
+  - {fileID: 11400000, guid: ce37d5180ba602c4d952858a80b6aa22, type: 2}
+  - {fileID: 11400000, guid: 20518c3ab55bbd84295be8fe4c3d3196, type: 2}
+  dropdownPanel: {fileID: 489764}
 --- !u!1 &157973373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,7 +2362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 197, y: 194}
+  m_AnchoredPosition: {x: 0, y: 369}
   m_SizeDelta: {x: 343.6763, y: 91.22168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1104177123
@@ -2401,7 +2408,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1104177124}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 60090236}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ToggleDropdown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1104177124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2531,11 +2550,17 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Hina
+    - m_Text: "Alegr\xEDa"
       m_Image: {fileID: 0}
-    - m_Text: Rosa
+    - m_Text: Anturio
       m_Image: {fileID: 0}
-    - m_Text: "Orqu\xEDdea"
+    - m_Text: Amor de hombre
+      m_Image: {fileID: 0}
+    - m_Text: Flor de la Paz
+      m_Image: {fileID: 0}
+    - m_Text: Jatrofa
+      m_Image: {fileID: 0}
+    - m_Text: "San Joaqu\xEDn"
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2636,17 +2661,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251602837}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 452122014}
-  m_Father: {fileID: 489765}
+  m_Father: {fileID: 60090235}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -201, y: 194}
+  m_AnchoredPosition: {x: 0, y: 199}
   m_SizeDelta: {x: 343.6763, y: 91.22168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251602839
@@ -2692,7 +2717,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1251602840}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 60090236}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ToggleARCamera
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1251602840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3332,7 +3369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hina
+  m_text: "Alegr\xEDa"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
