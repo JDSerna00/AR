@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c44009749f7ffd40937757bef4a4ff8, type: 3}
   m_Name: Flor de la Paz
   m_EditorClassIdentifier: 
-  commonName: 
-  scientificName: 
-  description: 
+  commonName: 'Flor de la paz '
+  scientificName: Spathiphyllum wallisii
+  description: "Tipo: Interior purificador \u2013 Elegante\n\nTambi\xE9n conocida
+    como Cuna de Mois\xE9s. Un \xEDcono de serenidad. Produce hojas brillantes y
+    espatas blancas que parecen llamar al silencio y la calma. No solo es decorativa:
+    tambi\xE9n purifica el aire, seg\xFAn estudios de la NASA. Perfecta compa\xF1era
+    en oficinas, salas y jardines sombr\xEDos."
   photo: {fileID: 0}
   modelPrefab: {fileID: 0}
   vuforiaTargetName: 
