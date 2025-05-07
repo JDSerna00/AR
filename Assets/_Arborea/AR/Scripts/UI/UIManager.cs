@@ -61,6 +61,7 @@ public class UIManager : MonoBehaviour
     void OnDropdownValueChanged(int index)
     {
         currentIndex = index;
+        ShowInfoPanel();
     }
 
     public void ShowInfoPanel()
@@ -71,7 +72,7 @@ public class UIManager : MonoBehaviour
         sciNameText.text = flower.scientificName;
         descText.text = flower.description;
         flowerImage.sprite = flower.photo;
-
+        Debug.Log($"Showing info for: {flower.commonName}");
         infoPanel.SetActive(true);
     }
 
