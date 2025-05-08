@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c44009749f7ffd40937757bef4a4ff8, type: 3}
   m_Name: Amor de hombre
   m_EditorClassIdentifier: 
-  commonName: Amor de Hombre
+  commonName: AmorDeHombre
   scientificName: Tradescantia pallida
   description: "Tipo: Rastrera ornamental \u2013 Resistente\n\nUna planta de bajo
     perfil pero gran impacto visual. Su follaje p\xFArpura intenso forma alfombras
     decorativas en jardines y materas colgantes. Tolera el sol directo y el clima
     c\xE1lido. De crecimiento veloz, es una aliada perfecta para coberturas y contrastes
     en dise\xF1o paisaj\xEDstico."
-  photo: {fileID: 0}
+  photo: {fileID: 21300000, guid: 20d0bc4d18df3334780ebc8dbc350703, type: 3}
   modelPrefab: {fileID: 0}
-  vuforiaTargetName: 
+  vuforiaTargetName: AmorDeHombre

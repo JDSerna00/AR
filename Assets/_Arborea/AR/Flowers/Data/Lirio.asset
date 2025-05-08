@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c44009749f7ffd40937757bef4a4ff8, type: 3}
   m_Name: Lirio
   m_EditorClassIdentifier: 
-  commonName: Lily
-  scientificName: Lilium
+  commonName: Tulip
+  scientificName: Tulipancio
   description: asdasdasd
   photo: {fileID: 0}
   modelPrefab: {fileID: 9125060489265959795, guid: 3171d98d5dadfe54fb6718396684240e,
     type: 3}
-  vuforiaTargetName: Lily
+  vuforiaTargetName: Tulip

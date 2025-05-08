@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c44009749f7ffd40937757bef4a4ff8, type: 3}
   m_Name: San Joaquin
   m_EditorClassIdentifier: 
-  commonName: "San Joaqu\xEDn"
+  commonName: SanJoaquin
   scientificName: 'Hibiscus rosa-sinensis '
   description: "Tipo: Arbusto floral \u2013 Soleado\n\nEspecie de gran porte y vitalidad.
     Sus flores, grandes y vistosas, pueden presentarse en tonos rojos, rosados, naranjas
     o amarillos. Florece durante todo el a\xF1o si el clima es c\xE1lido. Muy apreciada
     en jardines por su capacidad de atraer mariposas y colibr\xEDes. En San Joaqu\xEDn,
     se le considera emblema del entorno residencial."
-  photo: {fileID: 0}
+  photo: {fileID: 21300000, guid: 72e467259ef67994bb18891e76911e9f, type: 3}
   modelPrefab: {fileID: 0}
-  vuforiaTargetName: "San Joaqu\xEDn"
+  vuforiaTargetName: SanJoaquin

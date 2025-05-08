@@ -19,6 +19,6 @@ MonoBehaviour:
     con sus hojas verdes acorazonadas. Puede florecer varias veces al a\xF1o y se
     adapta bien a macetas. Su forma \xFAnica y resistencia la han vuelto una favorita
     en jardines bot\xE1nicos y espacios contempor\xE1neos."
-  photo: {fileID: 0}
+  photo: {fileID: 21300000, guid: f68ba8f9d04148e489b69f4081bd8526, type: 3}
   modelPrefab: {fileID: 0}
-  vuforiaTargetName: 
+  vuforiaTargetName: Jatrofa

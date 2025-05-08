@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c44009749f7ffd40937757bef4a4ff8, type: 3}
   m_Name: Alegria
   m_EditorClassIdentifier: 
-  commonName: "Alegr\xEDa"
+  commonName: Alegria
   scientificName: Impatiens walleriana
   description: "Tipo: Ornamental de sombra \u2013 Urbana\n\nUna planta compacta,
     pero de gran carisma. Sus flores peque\xF1as pero abundantes aparecen en tonos
     vibrantes como rosa, blanco, morado y salm\xF3n. Se adapta bien a macetas, balcones
     y espacios con sombra parcial. Su energ\xEDa constante alegra calles y jardines
     de la ciudad."
-  photo: {fileID: 0}
+  photo: {fileID: 21300000, guid: 5cf4e24e1ea54d94fa02a90683ded12d, type: 3}
   modelPrefab: {fileID: 0}
-  vuforiaTargetName: "San Joaqu\xEDn"
+  vuforiaTargetName: Alegria
