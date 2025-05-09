@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8242664817952517666
+--- !u!1001 &754024551314435872
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,73 +8,63 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20.953386
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.852197
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: -8679921383154817045, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 978b235aaf9cd8044a581122682f12d0,
+    - target: {fileID: 919132149155446097, guid: 420a9b68907dafc4f9d822a715dcb220,
         type: 3}
       propertyPath: m_Name
-      value: Paz
+      value: Flor de la paz
       objectReference: {fileID: 0}
-    - target: {fileID: 7202271454713460447, guid: 978b235aaf9cd8044a581122682f12d0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d633df7c8c01c0941a5c4d3a8b7a81b5, type: 2}
-    - target: {fileID: 8442510506162454399, guid: 978b235aaf9cd8044a581122682f12d0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d633df7c8c01c0941a5c4d3a8b7a81b5, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 978b235aaf9cd8044a581122682f12d0, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 420a9b68907dafc4f9d822a715dcb220, type: 3}
