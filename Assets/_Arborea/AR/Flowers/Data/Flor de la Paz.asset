@@ -20,6 +20,6 @@ MonoBehaviour:
     tambi\xE9n purifica el aire, seg\xFAn estudios de la NASA. Perfecta compa\xF1era
     en oficinas, salas y jardines sombr\xEDos."
   photo: {fileID: 21300000, guid: 1e42b1342ebc6f34da35d3ff0ea74bf8, type: 3}
-  modelPrefab: {fileID: 9125060489265959795, guid: abba06481e77a86459f923c42c72a2ab,
+  modelPrefab: {fileID: 919132149155446097, guid: 420a9b68907dafc4f9d822a715dcb220,
     type: 3}
   vuforiaTargetName: FlorDeLaPaz

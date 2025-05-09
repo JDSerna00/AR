@@ -20,6 +20,6 @@ MonoBehaviour:
     c\xE1lido. De crecimiento veloz, es una aliada perfecta para coberturas y contrastes
     en dise\xF1o paisaj\xEDstico."
   photo: {fileID: 21300000, guid: ae40b6d4cccc7c0488f6224de39fb450, type: 3}
-  modelPrefab: {fileID: 9125060489265959795, guid: b7a9947d7dd072a45a37f85ad0b99349,
+  modelPrefab: {fileID: 919132149155446097, guid: 24c51e81118a48d4c82974fb422c208b,
     type: 3}
   vuforiaTargetName: AmorDeHombre

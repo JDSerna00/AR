@@ -20,6 +20,6 @@ MonoBehaviour:
     en jardines por su capacidad de atraer mariposas y colibr\xEDes. En San Joaqu\xEDn,
     se le considera emblema del entorno residencial."
   photo: {fileID: 21300000, guid: eb73544b776e3cb49aa193e0fe3c3c15, type: 3}
-  modelPrefab: {fileID: 9125060489265959795, guid: 53fe9cf045a97ff4fbf47e13937e7b1e,
+  modelPrefab: {fileID: 919132149155446097, guid: 870e44e9c641e7243966690737f4a845,
     type: 3}
   vuforiaTargetName: SanJoaquin

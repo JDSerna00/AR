@@ -20,6 +20,6 @@ MonoBehaviour:
     durante todo el a\xF1o y tiene una estructura resistente. Ideal para dar un aire
     refinado a cualquier espacio."
   photo: {fileID: 21300000, guid: bd19fcf24ffa1d64f9e3ccbc4e5ef160, type: 3}
-  modelPrefab: {fileID: 9125060489265959795, guid: c9edc2a1e0f61d0459a41ae9f5166fe1,
+  modelPrefab: {fileID: 919132149155446097, guid: 6cc9b2094eeda464c8151c26b1592b13,
     type: 3}
   vuforiaTargetName: Anturio
