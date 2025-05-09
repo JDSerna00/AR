@@ -19,6 +19,7 @@ MonoBehaviour:
     o amarillos. Florece durante todo el a\xF1o si el clima es c\xE1lido. Muy apreciada
     en jardines por su capacidad de atraer mariposas y colibr\xEDes. En San Joaqu\xEDn,
     se le considera emblema del entorno residencial."
-  photo: {fileID: 21300000, guid: 72e467259ef67994bb18891e76911e9f, type: 3}
-  modelPrefab: {fileID: 0}
+  photo: {fileID: 21300000, guid: eb73544b776e3cb49aa193e0fe3c3c15, type: 3}
+  modelPrefab: {fileID: 9125060489265959795, guid: 53fe9cf045a97ff4fbf47e13937e7b1e,
+    type: 3}
   vuforiaTargetName: SanJoaquin

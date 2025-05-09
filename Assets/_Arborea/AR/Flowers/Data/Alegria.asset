@@ -20,5 +20,6 @@ MonoBehaviour:
     y espacios con sombra parcial. Su energ\xEDa constante alegra calles y jardines
     de la ciudad."
   photo: {fileID: 21300000, guid: 5cf4e24e1ea54d94fa02a90683ded12d, type: 3}
-  modelPrefab: {fileID: 0}
+  modelPrefab: {fileID: 9125060489265959795, guid: 4becf99790bdad5458b6ec9b2e1dd754,
+    type: 3}
   vuforiaTargetName: Alegria

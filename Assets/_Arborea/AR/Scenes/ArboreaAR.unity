@@ -601,7 +601,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 2}
-  m_SizeDelta: {x: 0, y: 709.6618}
+  m_SizeDelta: {x: 0, y: 1046.293}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &157973375
 MonoBehaviour:
@@ -824,13 +824,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Target_Rose
+  mTrackableName: Target_FlorDeLaPaz
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Arborea.xml
-  mAspectRatio: 0.666479
+  mAspectRatio: 1.5
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.666479
+  mHeight: 1.5
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -845,7 +845,7 @@ Transform:
   m_GameObject: {fileID: 245327012}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 0, z: -5.01}
+  m_LocalPosition: {x: 0.01, y: 0, z: -6.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -866,7 +866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 245327015}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Target_Rose
+  mTargetName: Target_FlorDeLaPaz
   mDatasetName: Vuforia/Arborea.xml
   mCastedBehaviour: {fileID: 245327015}
   mMeshFilter: {fileID: 0}
@@ -904,7 +904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.0004196167}
+  m_AnchoredPosition: {x: 0, y: -0.000091552734}
   m_SizeDelta: {x: 0, y: 28}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &311487195
@@ -1077,13 +1077,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Target_Rose
+  mTrackableName: Target_Anturio
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Arborea.xml
-  mAspectRatio: 0.666479
+  mAspectRatio: 1.5
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.666479
+  mHeight: 1.5
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 311984630}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Target_Rose
+  mTargetName: Target_Anturio
   mDatasetName: Vuforia/Arborea.xml
   mCastedBehaviour: {fileID: 311984630}
   mMeshFilter: {fileID: 0}
@@ -1789,13 +1789,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Target_Rose
+  mTrackableName: Target_AmorDeHombre
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Arborea.xml
-  mAspectRatio: 0.666479
+  mAspectRatio: 1.5
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.666479
+  mHeight: 1.5
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1831,7 +1831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 671095244}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Target_Rose
+  mTargetName: Target_AmorDeHombre
   mDatasetName: Vuforia/Arborea.xml
   mCastedBehaviour: {fileID: 671095244}
   mMeshFilter: {fileID: 0}
@@ -1914,13 +1914,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Target_Rose
+  mTrackableName: Target_Jatrofa
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Arborea.xml
-  mAspectRatio: 0.666479
+  mAspectRatio: 1.5
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.666479
+  mHeight: 1.5
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1935,7 +1935,7 @@ Transform:
   m_GameObject: {fileID: 693055076}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 0, z: -5.01}
+  m_LocalPosition: {x: 10, y: 0, z: -6.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1956,7 +1956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 693055079}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Target_Rose
+  mTargetName: Target_Jatrofa
   mDatasetName: Vuforia/Arborea.xml
   mCastedBehaviour: {fileID: 693055079}
   mMeshFilter: {fileID: 0}
@@ -1997,8 +1997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -20.072998}
-  m_SizeDelta: {x: 0, y: 68.146}
+  m_AnchoredPosition: {x: 0, y: -30.8742}
+  m_SizeDelta: {x: 0, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748935682
 MonoBehaviour:
@@ -2126,13 +2126,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Target_Rose
+  mTrackableName: Target_Alegria
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Arborea.xml
-  mAspectRatio: 0.666479
+  mAspectRatio: 1.5
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.666479
+  mHeight: 1.5
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2168,7 +2168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 773617821}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Target_Rose
+  mTargetName: Target_Alegria
   mDatasetName: Vuforia/Arborea.xml
   mCastedBehaviour: {fileID: 773617821}
   mMeshFilter: {fileID: 0}
@@ -2207,6 +2207,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ed237968829d11444b74618179b8dcf7, type: 2}
   - {fileID: 11400000, guid: 347266a8fde9665499197ad82cf16190, type: 2}
   - {fileID: 11400000, guid: 4608c884c7cf37a4dabbaa81d6b55059, type: 2}
+  - {fileID: 11400000, guid: 0fe39c1875ef49042b9a8784f5a50416, type: 2}
+  - {fileID: 11400000, guid: a92fea187d04f924f9bc777c672cf7b0, type: 2}
+  - {fileID: 11400000, guid: c241e8d6a773d31479b8b709b5a1924b, type: 2}
+  - {fileID: 11400000, guid: 1bc99e96a4d68a744bec431e873b9f63, type: 2}
+  - {fileID: 11400000, guid: ce37d5180ba602c4d952858a80b6aa22, type: 2}
+  - {fileID: 11400000, guid: 20518c3ab55bbd84295be8fe4c3d3196, type: 2}
   persistDiscoveredFlowers: 1
 --- !u!114 &793503455
 MonoBehaviour:
@@ -2930,9 +2936,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -53, y: 0}
-  m_SizeDelta: {x: 120, y: 120}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1001116556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3367,8 +3373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 379, y: 203}
-  m_SizeDelta: {x: 343.6763, y: 91.22168}
+  m_AnchoredPosition: {x: 379, y: 318}
+  m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1104177123
 MonoBehaviour:
@@ -3534,7 +3540,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0.000011444092, y: -420}
-  m_SizeDelta: {x: 1547.0754, y: 111.4428}
+  m_SizeDelta: {x: 1600, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1130136138
 MonoBehaviour:
@@ -3738,8 +3744,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -248, y: 199}
-  m_SizeDelta: {x: 343.6763, y: 91.22168}
+  m_AnchoredPosition: {x: -248, y: 314}
+  m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251602839
 MonoBehaviour:
@@ -4092,8 +4098,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4251,13 +4257,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Target_Rose
+  mTrackableName: Target_SanJoaquin
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Arborea.xml
-  mAspectRatio: 0.666479
+  mAspectRatio: 1.5
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.666479
+  mHeight: 1.5
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4272,7 +4278,7 @@ Transform:
   m_GameObject: {fileID: 1689719526}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.91, y: 0, z: -5.01}
+  m_LocalPosition: {x: 19.91, y: 0, z: -6.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4293,7 +4299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1689719529}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Target_Rose
+  mTargetName: Target_SanJoaquin
   mDatasetName: Vuforia/Arborea.xml
   mCastedBehaviour: {fileID: 1689719529}
   mMeshFilter: {fileID: 0}
@@ -4682,8 +4688,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4814,7 +4820,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 222217090}
   m_HandleRect: {fileID: 222217089}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
