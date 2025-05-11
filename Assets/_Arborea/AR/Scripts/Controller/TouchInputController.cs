@@ -3,10 +3,12 @@ using UnityEngine;
 public class TouchInputController : MonoBehaviour
 {
     [SerializeField] private float rotationSpeed = 0.2f;
+    [SerializeField] private float xSensitivity = 0.5f;
     [SerializeField] private float scaleSpeed = 0.01f;
 
     private ObjectTransformModel _model;
     private ObjectView _view;
+    private Vector2 _previousTouchPosition;
     private float _initialPinchDistance;
 
     public void Initialize(ObjectTransformModel model, ObjectView view)
@@ -24,10 +26,28 @@ public class TouchInputController : MonoBehaviour
     private void HandleRotation()
     {
         Touch touch = Input.GetTouch(0);
-        if (touch.phase == TouchPhase.Moved)
+
+        if (touch.phase == TouchPhase.Began)
         {
-            _model.Rotate(-touch.deltaPosition.x * rotationSpeed);
-            _view.UpdateRotation(_model.RotationY);
+            _previousTouchPosition = touch.position;
+        }
+        else if (touch.phase == TouchPhase.Moved)
+        {
+            Vector2 delta = touch.position - _previousTouchPosition;
+
+            // Vertical swipe affects X-axis rotation
+            float xRotation = -delta.y * rotationSpeed * xSensitivity;
+
+            // Horizontal swipe affects Y-axis rotation
+            float yRotation = -delta.x * rotationSpeed;
+
+            // Diagonal movements create natural Z-axis rotation
+            float zRotation = (Mathf.Abs(delta.x) - Mathf.Abs(delta.y)) * rotationSpeed * 0.3f;
+
+            _model.Rotate(new Vector3(xRotation, yRotation, zRotation));
+            _view.UpdateRotation(_model.Rotation);
+
+            _previousTouchPosition = touch.position;
         }
     }
 
@@ -55,7 +75,7 @@ public class TouchInputController : MonoBehaviour
     public void ResetModel()
     {
         _model.Reset();
-        _view.UpdateRotation(_model.RotationY);
+        _view.UpdateRotation(_model.Rotation);
         _view.UpdateScale(_model.Scale);
     }
 }

@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class ObjectView : MonoBehaviour
 {
-    public void UpdateRotation(float rotationY)
+    public void UpdateRotation(Vector3 eulerAngles)
     {
-        transform.localEulerAngles = new Vector3(0, rotationY, 0);
+        transform.localEulerAngles = eulerAngles;
     }
 
     public void UpdateScale(Vector3 scale)
