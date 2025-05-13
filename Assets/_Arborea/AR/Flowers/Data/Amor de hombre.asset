@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commonName: AmorDeHombre
   scientificName: Tradescantia pallida
-  description: "Tipo: Rastrera ornamental \u2013 Resistente\n\nUna planta de bajo
-    perfil pero gran impacto visual. Su follaje p\xFArpura intenso forma alfombras
-    decorativas en jardines y materas colgantes. Tolera el sol directo y el clima
-    c\xE1lido. De crecimiento veloz, es una aliada perfecta para coberturas y contrastes
-    en dise\xF1o paisaj\xEDstico."
+  description: "Tipo: Rastrera ornamental \u2013 Resistente\n\nPlanta de follaje
+    p\xFArpura intenso, muy decorativa y resistente al sol y al calor. Crece r\xE1pido
+    y es ideal para cubrir espacios en jardines.\n\nConsejo de Don Joaqu\xEDn: Las
+    hojas machacadas se aplican sobre heridas peque\xF1as o picaduras para ayudar
+    a desinflamar y cicatrizar."
   photo: {fileID: 21300000, guid: ae40b6d4cccc7c0488f6224de39fb450, type: 3}
   modelPrefab: {fileID: 919132149155446097, guid: 24c51e81118a48d4c82974fb422c208b,
     type: 3}

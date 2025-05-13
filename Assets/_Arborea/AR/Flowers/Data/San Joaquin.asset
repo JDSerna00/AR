@@ -18,7 +18,9 @@ MonoBehaviour:
     Sus flores, grandes y vistosas, pueden presentarse en tonos rojos, rosados, naranjas
     o amarillos. Florece durante todo el a\xF1o si el clima es c\xE1lido. Muy apreciada
     en jardines por su capacidad de atraer mariposas y colibr\xEDes. En San Joaqu\xEDn,
-    se le considera emblema del entorno residencial."
+    se le considera emblema del entorno residencial.\n\nConsejo de Don Joaqu\xEDn:
+    Las flores pueden usarse en infusi\xF3n para aliviar la tos, la fiebre y mejorar
+    la digesti\xF3n."
   photo: {fileID: 21300000, guid: eb73544b776e3cb49aa193e0fe3c3c15, type: 3}
   modelPrefab: {fileID: 919132149155446097, guid: 870e44e9c641e7243966690737f4a845,
     type: 3}

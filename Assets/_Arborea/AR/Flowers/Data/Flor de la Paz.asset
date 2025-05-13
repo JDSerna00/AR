@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commonName: FlorDeLaPaz
   scientificName: Spathiphyllum wallisii
-  description: "Tipo: Interior purificador \u2013 Elegante\n\nTambi\xE9n conocida
-    como Cuna de Mois\xE9s. Un \xEDcono de serenidad. Produce hojas brillantes y
-    espatas blancas que parecen llamar al silencio y la calma. No solo es decorativa:
-    tambi\xE9n purifica el aire, seg\xFAn estudios de la NASA. Perfecta compa\xF1era
-    en oficinas, salas y jardines sombr\xEDos."
+  description: "Tipo: Interior purificador \u2013 Elegante\n\nProduce hojas verdes
+    brillantes y flores blancas que se mantienen por varias semanas. Muy usada en
+    interiores por su capacidad de adaptarse a poca luz.\n\nConsejo de Don Joaqu\xEDn:
+    Es una planta ideal para interiores porque mejora la calidad del aire y ayuda
+    a mantener ambientes frescos y tranquilos."
   photo: {fileID: 21300000, guid: 1e42b1342ebc6f34da35d3ff0ea74bf8, type: 3}
   modelPrefab: {fileID: 919132149155446097, guid: 420a9b68907dafc4f9d822a715dcb220,
     type: 3}

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commonName: Jatrofa
   scientificName: Jatropha podagrica
-  description: "Tipo: Ex\xF3tica ornamental \u2013 Suculenta\n\nUna planta con forma
-    escultural. Su tallo engrosado almacena agua y su floraci\xF3n roja contrasta
-    con sus hojas verdes acorazonadas. Puede florecer varias veces al a\xF1o y se
-    adapta bien a macetas. Su forma \xFAnica y resistencia la han vuelto una favorita
-    en jardines bot\xE1nicos y espacios contempor\xE1neos."
+  description: "Tipo: Ex\xF3tica ornamental \u2013 Suculenta\n\nPlanta llamativa
+    por su tallo hinchado y flores rojo intenso. Se adapta bien a climas c\xE1lidos
+    y secos.\n\nConsejo de Don Joaqu\xEDn: Su savia ha sido usada como purgante en
+    remedios caseros, pero debe manipularse con precauci\xF3n porque es t\xF3xica
+    en altas dosis."
   photo: {fileID: 21300000, guid: f68ba8f9d04148e489b69f4081bd8526, type: 3}
   modelPrefab: {fileID: 919132149155446097, guid: 193f4c5da18df4842800298c0eb38bc0,
     type: 3}
