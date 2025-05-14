@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f93a803d3d728764daee67d3966eeb4e
+guid: 4f383d77dd798874fa45b420d8ba1a7f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Cabin
+  - Fredoka
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
