@@ -25,16 +25,11 @@ public class UIManager : MonoBehaviour
     public GameObject arCamera;
     public GameObject uiCamera;
 
-    [Header("AR Button")]
-    public TextMeshProUGUI arButtonText;
-
     private int currentIndex = 0;
     private bool isARActive = false;
-    private bool isDropdownVisible = false;
 
     void Start()
     {
-        // Asegúrate de que AR está desactivada al inicio
         arCamera.SetActive(false);
         uiCamera.SetActive(true);
 
@@ -44,7 +39,6 @@ public class UIManager : MonoBehaviour
         flowerDropdown.gameObject.SetActive(false);
         dropdownPanel.SetActive(true);
 
-        arButtonText.text = "Activar AR";
     }
 
     void PopulateDropdown()
@@ -79,17 +73,8 @@ public class UIManager : MonoBehaviour
     public void ToggleARCamera()
     {
         isARActive = !isARActive;
-
         arCamera.SetActive(isARActive);
         uiCamera.SetActive(!isARActive);
         dropdownPanel.SetActive(!isARActive);
-
-        arButtonText.text = isARActive ? "Desactivar AR" : "Activar AR";
-    }
-
-    public void ToggleDropdown()
-    {
-        isDropdownVisible = !isDropdownVisible;
-        flowerDropdown.gameObject.SetActive(isDropdownVisible);
     }
 }
