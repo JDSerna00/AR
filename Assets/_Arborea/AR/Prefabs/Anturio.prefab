@@ -61,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6cc9b2094eeda464c8151c26b1592b13,
         type: 3}
       propertyPath: m_Name
-      value: Anturio 1
+      value: Anturio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
