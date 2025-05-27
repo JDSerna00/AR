@@ -19,7 +19,7 @@ MonoBehaviour:
     y es ideal para cubrir espacios en jardines.\n\nConsejo de Don Joaqu\xEDn: Las
     hojas machacadas se aplican sobre heridas peque\xF1as o picaduras para ayudar
     a desinflamar y cicatrizar."
-  photo: {fileID: 21300000, guid: ae40b6d4cccc7c0488f6224de39fb450, type: 3}
+  photo: {fileID: 21300000, guid: 81aae9fc27ca38d4583ed161a348e1d8, type: 3}
   modelPrefab: {fileID: 919132149155446097, guid: 24c51e81118a48d4c82974fb422c208b,
     type: 3}
   vuforiaTargetName: AmorDeHombre

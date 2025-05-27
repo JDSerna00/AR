@@ -28,6 +28,7 @@ public class UIManager : MonoBehaviour
     private int currentIndex = 0;
     private bool isARActive = false;
 
+
     void Start()
     {
         arCamera.SetActive(false);
@@ -38,7 +39,6 @@ public class UIManager : MonoBehaviour
         infoPanel.SetActive(false);
         flowerDropdown.gameObject.SetActive(false);
         dropdownPanel.SetActive(true);
-
     }
 
     void PopulateDropdown()
@@ -76,5 +76,6 @@ public class UIManager : MonoBehaviour
         arCamera.SetActive(isARActive);
         uiCamera.SetActive(!isARActive);
         dropdownPanel.SetActive(!isARActive);
+
     }
 }

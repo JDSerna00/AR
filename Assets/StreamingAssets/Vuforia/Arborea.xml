@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="Target_SanJoaquin" size="1.000000 1.500000" />
-    <ImageTarget name="Target_FlorDeLaPaz" size="1.000000 1.500000" />
-    <ImageTarget name="Target_AmorDeHombre" size="1.000000 1.500000" />
-    <ImageTarget name="Target_Jatrofa" size="1.000000 1.500000" />
-    <ImageTarget name="Target_Anturio" size="1.000000 1.500000" />
-    <ImageTarget name="Target_Alegria" size="1.000000 1.500000" />
+    <ImageTarget name="Target_AmorDeHombre" size="1.000000 1.500938" />
+    <ImageTarget name="Target_SanJoaquin" size="1.000000 1.500938" />
+    <ImageTarget name="Target_Alegria" size="1.000000 1.500938" />
+    <ImageTarget name="Target_Jatrofa" size="1.000000 1.500938" />
+    <ImageTarget name="Target_FlorDeLaPaz" size="1.000000 1.500938" />
+    <ImageTarget name="Target_Anturio" size="1.000000 1.500938" />
     <ImageTarget name="Target_Hina" size="1.000000 1.000000" />
     <ImageTarget name="Target_Tulip" size="1.000000 0.666479" />
   </Tracking>

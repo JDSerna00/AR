@@ -19,7 +19,7 @@ MonoBehaviour:
     por su valor ornamental tanto en jardines como en interiores.\n\nConsejo de Don
     Joaqu\xEDn: No debe tocarse ni ingerirse, ya que su savia puede causar irritaci\xF3n
     en la piel o la boca."
-  photo: {fileID: 21300000, guid: bd19fcf24ffa1d64f9e3ccbc4e5ef160, type: 3}
+  photo: {fileID: 21300000, guid: 3db49635bc22bf0429c3ac96a416a124, type: 3}
   modelPrefab: {fileID: 919132149155446097, guid: 6cc9b2094eeda464c8151c26b1592b13,
     type: 3}
   vuforiaTargetName: Anturio

@@ -20,7 +20,7 @@ MonoBehaviour:
     y espacios con sombra parcial. Su energ\xEDa constante alegra calles y jardines
     de la ciudad.\n\nConsejo de Don Joaqu\xEDn: No tiene propiedades medicinales
     conocidas, pero es ideal para dar color y alegr\xEDa a espacios oscuros o sombr\xEDos."
-  photo: {fileID: 21300000, guid: 5cf4e24e1ea54d94fa02a90683ded12d, type: 3}
+  photo: {fileID: 21300000, guid: bd47fb3f6cf11e64ea4e576486cc3215, type: 3}
   modelPrefab: {fileID: 919132149155446097, guid: 5a6aa0fe3a0e23f4d8a28c02385ef8e8,
     type: 3}
   vuforiaTargetName: Alegria

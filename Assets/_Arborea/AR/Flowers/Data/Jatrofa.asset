@@ -19,7 +19,7 @@ MonoBehaviour:
     y secos.\n\nConsejo de Don Joaqu\xEDn: Su savia ha sido usada como purgante en
     remedios caseros, pero debe manipularse con precauci\xF3n porque es t\xF3xica
     en altas dosis."
-  photo: {fileID: 21300000, guid: f68ba8f9d04148e489b69f4081bd8526, type: 3}
+  photo: {fileID: 21300000, guid: f3226688f544402478bc6e69ad46f3a3, type: 3}
   modelPrefab: {fileID: 919132149155446097, guid: 193f4c5da18df4842800298c0eb38bc0,
     type: 3}
   vuforiaTargetName: Jatrofa

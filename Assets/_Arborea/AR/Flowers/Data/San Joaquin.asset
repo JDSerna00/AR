@@ -21,7 +21,7 @@ MonoBehaviour:
     se le considera emblema del entorno residencial.\n\nConsejo de Don Joaqu\xEDn:
     Las flores pueden usarse en infusi\xF3n para aliviar la tos, la fiebre y mejorar
     la digesti\xF3n."
-  photo: {fileID: 21300000, guid: eb73544b776e3cb49aa193e0fe3c3c15, type: 3}
-  modelPrefab: {fileID: 919132149155446097, guid: 870e44e9c641e7243966690737f4a845,
+  photo: {fileID: 21300000, guid: a14ccf2ad4080124fbccb650ba103828, type: 3}
+  modelPrefab: {fileID: 2679664524555004134, guid: 0ba4a0307d8ba3c44b41f080988dada0,
     type: 3}
   vuforiaTargetName: SanJoaquin
